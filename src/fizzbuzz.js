@@ -4,6 +4,6 @@ export const fizzBuzz = (num) => {
   } else if (num % 5 === 0) {
     return 'Buzz';
   } else {
-    return num*2;
+    return num;
   }
 };
